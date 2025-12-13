@@ -1,10 +1,9 @@
 package com.spurqlabs.utils;
 
+import java.io.FileReader;
+
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-
-import java.io.FileReader;
-import java.nio.file.Paths;
 
 /**
  * Utility class to read configuration from config.json
