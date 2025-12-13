@@ -1,0 +1,52 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+*.swp
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test outputs
+test-output/
+screenshots/
+*.png
+*.jpg
+*.mp4
+
+# Node modules (for MCP scripts)
+node_modules/
+package-lock.json
+
+# Playwright
+playwright-report/
+test-results/
+.playwright/
+
+# Credentials (if any)
+*.env
+credentials.json
+
+# Temporary files
+*.tmp
+*.temp

@@ -1,0 +1,46 @@
+{
+  "newEmployee": {
+    "firstName": "John",
+    "middleName": "Michael",
+    "lastName": "Doe",
+    "employeeId": "AUTO"
+  },
+  "employeeMinimumFields": {
+    "firstName": "Jane",
+    "lastName": "Smith"
+  },
+  "employeeWithCustomId": {
+    "firstName": "Robert",
+    "lastName": "Johnson",
+    "employeeId": "EMP-12345"
+  },
+  "employeeNoFirstName": {
+    "lastName": "Williams"
+  },
+  "employeeNoLastName": {
+    "firstName": "Sarah"
+  },
+  "employeeCancelTest": {
+    "firstName": "Cancel",
+    "lastName": "Test"
+  },
+  "bulkEmployees": [
+    {
+      "firstName": "Alice",
+      "middleName": "Marie",
+      "lastName": "Brown",
+      "employeeId": "AUTO"
+    },
+    {
+      "firstName": "Bob",
+      "lastName": "Wilson",
+      "employeeId": "AUTO"
+    },
+    {
+      "firstName": "Charlie",
+      "middleName": "David",
+      "lastName": "Taylor",
+      "employeeId": "EMP-67890"
+    }
+  ]
+}

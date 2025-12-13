@@ -1,0 +1,11 @@
+{
+  "baseUrl": "https://opensource-demo.orangehrmlive.com",
+  "timeout": 30000,
+  "headless": false,
+  "slowMo": 100,
+  "browser": "chromium",
+  "viewport": {
+    "width": 1920,
+    "height": 1080
+  }
+}
