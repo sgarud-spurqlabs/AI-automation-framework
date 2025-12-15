@@ -1,0 +1,49 @@
+{
+  "newEmployee": {
+    "firstName": "John",
+    "middleName": "Michael",
+    "lastName": "Doe",
+    "employeeId": "AUTO"
+  },
+  "employeeMinimumFields": {
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "employeeId": "AUTO"
+  },
+  "employeeWithCustomId": {
+    "firstName": "Robert",
+    "middleName": "Edward",
+    "lastName": "Johnson",
+    "employeeId": "EMP-12345"
+  },
+  "missingFirstName": {
+    "firstName": "",
+    "lastName": "Williams",
+    "employeeId": "AUTO"
+  },
+  "missingLastName": {
+    "firstName": "Sarah",
+    "lastName": "",
+    "employeeId": "AUTO"
+  },
+  "invalidCharacters": {
+    "firstName": "John123",
+    "lastName": "Smith@#",
+    "employeeId": "AUTO"
+  },
+  "exceedsMaxLength": {
+    "firstName": "Verylongnamethatexceedsthirtych",
+    "lastName": "Smith",
+    "employeeId": "AUTO"
+  },
+  "boundaryExact30Chars": {
+    "firstName": "Exactlythirtycharacterslong12",
+    "lastName": "TestLastNameThirtyCharacters",
+    "employeeId": "AUTO"
+  },
+  "cancelEmployee": {
+    "firstName": "Cancel",
+    "lastName": "Test",
+    "employeeId": "AUTO"
+  }
+}

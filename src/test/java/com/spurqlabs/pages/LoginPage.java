@@ -1,7 +1,6 @@
 package com.spurqlabs.pages;
 
 import com.microsoft.playwright.Page;
-import com.microsoft.playwright.options.AriaRole;
 import com.spurqlabs.utils.PlaywrightDriver;
 
 /**
@@ -88,5 +87,12 @@ public class LoginPage {
      */
     public String getPageTitle() {
         return page.title();
+    }
+
+    /**
+     * Get current URL
+     */
+    public String getCurrentUrl() {
+        return page.url();
     }
 }
